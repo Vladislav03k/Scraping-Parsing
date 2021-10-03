@@ -1,0 +1,8 @@
+name = input("Enter your name: ")
+print("Welcome", name, "let's try to work with phyton")
+a = input("Enter the first number: ")
+b = input("Enter the second number: ")
+print(a + b, ". Ooops, it works not correctly")
+a = int(input("Let's try again.Enter the first number: "))
+b = int(input("Enter the second number: "))
+print(a + b)
