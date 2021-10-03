@@ -1,0 +1,10 @@
+my_list1 = [12, False, "word", {3, 2}, 1.222, (3, 4 ,5)]
+print(my_list1)
+my_list1.append("new_el")
+print(my_list1)
+print(type(my_list1[0]))
+print(type(my_list1[1]))
+print(type(my_list1[2]))
+print(type(my_list1[3]))
+print(type(my_list1[4]))
+print(type(my_list1[5]))
