@@ -98,7 +98,7 @@ for i in range(last_page):
     response = requests.get(main_url + '/search/vacancy', params=params, headers=headers)
     #print(len(all_vacancy))
 
-all_vacancy_df = pd.DataFrame(all_vacancy)
+#all_vacancy_df = pd.DataFrame(all_vacancy)
 
 #all_vacancy_df.to_csv('all_vacancy.csv', sep = ',', index = False)
-all_vacancy_df.to_json('all_vacancy.json')
+#all_vacancy_df.to_json('all_vacancy.json')
